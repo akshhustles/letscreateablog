@@ -20,6 +20,17 @@
   font-size: 35px;
   padding-top: 10px;
 }
+.social-media-buttons img {
+    width: 30px;
+    margin: 0 10px;
+    filter: invert(100%); /* This makes the logos white */
+    transition: transform 0.3s ease;
+}
+
+.social-media-buttons img:hover {
+    transform: scale(1.1); /* Makes the icon slightly larger when hovered */
+}
+
 
 .nav-left ul {
   display: flex;
